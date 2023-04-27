@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="input.css">
+    <title>Glassmorphism</title>
+</head>
+<body class="bg-[url('bg.jpg')] flex items-center justify-center min-h-[100vh] bg-cover bg-center py-[20px]">
+    <div class="p-4 bg-black/40 backdrop-blur-md  shadow-xl w-[300px] rounded-md sidebar">
+<div class="flex items-center dots w-[42px]">
+    <div class="h-[10px] w-[10px] bg-red-600 rounded-full"></div>
+    <div class="h-[10px] w-[10px] mx-[6px] bg-yellow-400 rounded-full"></div>
+    <div class="h-[10px] w-[10px] bg-green-700 rounded-full"></div>
+</div>
+
+<div class="flex items-center my-3 profile pt-6">
+    <div class="min-w-[42px] min-h-[42px] bg-[url('profile.jpg')] rounded-md bg-cover bg-center"></div>
+    <div class="pl-3 w-full profile_details">
+        <div class="flex items-center text-white font-sans text-[12px]">
+            <div class="pr-1">
+                <p>Hello</p>
+            </div>
+            <div class="min-h-[15px] min-w-[15px] bg-[url('hello.png')] bg-cover bg-center"></div>
+        </div>    
+        <p class="text-[20px] font-semibold text-[white] font-sans">Anbu Design</p>
+    </div> 
+    <div class="bg-[#2271e8] p-[3px] rounded-full relative left-[27px] cursor-pointer caret_icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left fill-white mr-[1px]" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+        </svg>
+    </div>
+</div>
+
+<div class="h-[1px] bg-white opacity-30 mt-4">
+
+</div>
+
+<div class="py-4">
+    <ul class="ul">
+        <li class="flex items-center py-1 my-6">
+            <!-- <div class="cap w-[5px] h-[40px] rounded-xl bg-white mr-4"></div> -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-ui-checks-grid fill-white mr-4 svg" viewBox="0 0 16 16"><path d="M2 10h3a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1zm9-9h3a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-3a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zm0 9a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-3zm0-10a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2h3a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2h-3zM2 9a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2h3a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H2zm7 2a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2h-3a2 2 0 0 1-2-2v-3zM0 2a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm5.354.854a.5.5 0 1 0-.708-.708L3 3.793l-.646-.647a.5.5 0 1 0-.708.708l1 1a.5.5 0 0 0 .708 0l2-2z"/>
+            </svg>
+            <p class="font-sans text-white p">Dashboard</p> 
+        </li>
+        
+        <li class="flex items-center justify-between py-1 my-6">
+            <div class="flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-people-fill fill-white mr-4 svg" viewBox="0 0 16 16"><path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/><path fill-rule="evenodd" d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z"/><path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/>
+            </svg>
+
+            <div class="min-w-[16px] h-[16px] bg-[#fbaa19] hidden items-center justify-center rounded-full relative top-[-10px] chat_count_small">4</div>
+            <p class="font-sans text-white p">Friends</p>
+            
+            </div>
+            <div class="w-[16px] h-[16px] bg-[#fbaa19] flex items-center justify-center rounded-sm chat_count">
+4
+            </div>
+
+        </li>  
+
+        <li class="flex items-center justify-between py-1 my-6">
+            <div class="flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-chat-dots-fill fill-white mr-4 svg" viewBox="0 0 16 16"><path d="M16 8c0 3.866-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.584.296-1.925.864-4.181 1.234-.2.032-.352-.176-.273-.362.354-.836.674-1.95.77-2.966C.744 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7zM5 8a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm4 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+            </svg>
+            <p class="font-sans text-white p">Chat</p>
+            </div>
+            <div class="flex chats">
+                <div class="w-[22px] h-[22px] rounded-full bg-[url('bg.jpg')] bg-cover mx-[-3px]"></div>
+                <div class="w-[22px] h-[22px] rounded-full bg-[url('bg2.jpg')] bg-cover mx-[-3px]"></div>
+                <div class="w-[22px] h-[22px] rounded-full bg-[url('hello.jpg')] bg-cover mx-[-3px]"></div>
+                <div class="w-[22px] h-[22px] rounded-full bg-[url('hello.png')] bg-cover mx-[-3px]"></div>
+                <div class="w-[22px] h-[22px] rounded-full bg-[url('bg.jpg')] mx-1"></div>
+            </div>
+        </li>
+
+        <li class="flex items-center justify-between py-1 my-6 dropdown_link cursor-pointer">
+            <div  class="flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-ui-checks-grid fill-white mr-4 svg" viewBox="0 0 16 16"><path d="M2 10h3a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1zm9-9h3a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-3a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zm0 9a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-3zm0-10a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2h3a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2h-3zM2 9a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2h3a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H2zm7 2a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2h-3a2 2 0 0 1-2-2v-3zM0 2a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm5.354.854a.5.5 0 1 0-.708-.708L3 3.793l-.646-.647a.5.5 0 1 0-.708.708l1 1a.5.5 0 0 0 .708 0l2-2z"/>
+            </svg>
+            <p class="font-sans text-white p">Groups</p>
+            </div>
+            <div class="caret_down">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down fill-white c_down svg" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                  </svg>
+            </div>
+        </li>
+
+        <li class="text-white font-sans dropdown overflow-hidden h-0 min-w-[220px] max-w-full rounded-md relative left-[-22px]">
+            <ul class="pl-8 dropdown_ul my-3 mr-3">
+                <li class="border-l border-slate-400  flex items-center">
+                    <div class="h-[1px] w-[20px] bg-slate-400  rounded-full"></div>
+                    <div class="flex items-center justify-between w-full hover:bg-[#235da9ba] pr-3 ml-3 rounded-sm c_down_div"> 
+                    <p class="font-light leading-[35px] px-3">UX Research</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" class="bi bi-chevron-down b_c_down fill-white hidden" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+                    </div>
+                </li>
+                <li class="border-l border-slate-400  flex items-center">
+                    <div class="h-[1px] w-[20px] bg-slate-400  rounded-full"></div>
+                    <div class="flex items-center justify-between w-full hover:bg-[#235da9ba] pr-3 ml-3 rounded-sm c_down_div">
+                    <p class="font-light leading-[35px]  px-3">UI Design</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" class="bi bi-chevron-down b_c_down fill-white hidden" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+                    </div>
+                </li>
+                <li class="border-l border-slate-400  flex items-center">
+                    <div class="h-[1px] w-[20px] bg-slate-400  rounded-full"></div>
+                    <div class="flex items-center justify-between w-full hover:bg-[#235da9ba] pr-3 ml-3 rounded-sm c_down_div">
+                    <p class="font-light leading-[35px] px-3">UI/UX Design</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" class="bi bi-chevron-down b_c_down fill-white hidden" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+                    </div>
+                </li>
+                <li class=" border-slate-400  flex">
+                    <div class="h-[18px] w-[1px] bg-slate-400"></div>
+                    <div class="flex items-center w-full">
+                    <div class="h-[1px] w-[20px] bg-slate-400 rounded-full"></div>
+                    <div class="flex items-center justify-between w-full hover:bg-[#235da9ba] pr-3 ml-3 rounded-sm c_down_div">
+                    <p class="font-light leading-[35px] px-3 rounded-sm">UX Research</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" class="bi bi-chevron-down b_c_down fill-white hidden" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+                    </div>
+                    </div>
+                </li>
+            </ul>
+        </li>
+
+        <li class="flex items-center py-1 my-6">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-bookmark-dash fill-white mr-4 svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M5.5 6.5A.5.5 0 0 1 6 6h4a.5.5 0 0 1 0 1H6a.5.5 0 0 1-.5-.5z"/><path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+            </svg>
+            <p class="font-sans text-white p">Saved</p>
+        </li>
+
+        <li class="flex items-center justify-between py-1 my-6">
+            <div class="flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-bell fill-white mr-4 svg" viewBox="0 0 16 16"><path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z"/>
+            </svg>
+            <div class="min-w-[16px] h-[16px] bg-[#fbaa19] items-center justify-center rounded-full relative top-[-10px] chat_count_small hidden">6</div>
+            <p class="font-sans text-white p">Notifications</p>
+        </div>
+        <div class="w-[16px] h-[16px] bg-[#fbaa19] flex items-center justify-center rounded-sm notifications_count">
+6
+        </div>
+        </li>
+
+        <li class="flex items-center py-1 my-6 rounded-md">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-gear fill-white mr-4 svg" viewBox="0 0 16 16"><path d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492zM5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0z"/><path d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115l.094-.319z"/>
+            </svg>
+            <p class="font-sans text-white p">Settings</p>
+        </li>
+    </ul>
+</div>
+
+<div class="flex justify-center items-center h-[200px] w-full text-center text-white border border-slate-300 border-dashed rounded-lg add">
+    <div>
+        <div class="w-[32px] h-[32px] rounded-full bg-[#2271e8] flex items-center justify-center m-auto"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+        <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/></svg></div>
+        <p class="font-sans font-medium mt-3 text-[18px] upload">Upload new file</p>
+        <p class="text-[13px] text-[#b8c2cc] drag">Drag and drop</p>
+    </div>
+</div>
+
+<!-- <div class="absolute min-w-[200px] bg-slate-900 rounded-lg p-3 text-white top-[-300px]">
+    <ul class="pl-8 dropdown_ul">
+        <li class="border-l-2 border-white py-1 flex items-center"><div class="h-[2px] w-[20px] bg-white mr-2 rounded-full"></div><p>UX Research</p></li>
+        <li class="border-l-2 border-white py-1 flex items-center"><div class="h-[2px] w-[20px] bg-white mr-2 rounded-full"></div><p>UI Design</p></li>
+        <li class="border-l-2 border-white py-1 flex items-center"><div class="h-[2px] w-[20px] bg-white mr-2 rounded-full"></div><p>UI/UX Design</p></li>
+        <li class="border-l-2 border-white py-1 flex items-center"><div class="h-[2px] w-[20px] bg-white mr-2 rounded-full"></div><p>UX Research</p></li>
+    </ul>
+</div> -->
+    </div>
+    <script>
+        var caret_icon = document.getElementsByClassName("caret_icon")[0];
+        var flag;
+        var p = document.getElementsByClassName("p");
+        var profile_details = document.getElementsByClassName("profile_details")[0];
+        var upload = document.getElementsByClassName("upload")[0];
+        var drag = document.getElementsByClassName("drag")[0];
+        var chat_count = document.getElementsByClassName("chat_count")[0];
+        var notifications_count = document.getElementsByClassName("notifications_count")[0];
+        var chats = document.getElementsByClassName("chats")[0];
+        var caret_down = document.getElementsByClassName("caret_down")[0];
+        var sidebar = document.getElementsByClassName("sidebar")[0];
+        var dots = document.getElementsByClassName("dots")[0];
+        var profile = document.getElementsByClassName("profile")[0];
+        var ul = document.getElementsByClassName("ul")[0];
+        var svg = document.getElementsByClassName("svg");
+        var dropdown = document.getElementsByClassName("dropdown");
+        var chat_count_small = document.getElementsByClassName("chat_count_small");
+        caret_icon.onclick = function()
+        {
+            if(flag == 0)
+            {
+            caret_icon.style.transform = "rotate(180deg)";
+            caret_icon.style.transition = "0.5s";
+            flag = 1;
+
+            p[0].style.display = "none";
+            p[1].style.display = "none";
+            p[2].style.display = "none";
+            p[3].style.display = "none";
+            p[4].style.display = "none";
+            p[5].style.display = "none";
+            p[6].style.display = "none";
+            profile_details.style.display = "none";
+            upload.style.display = "none";
+            drag.style.display = "none";
+            chat_count.style.display = "none";
+            notifications_count.style.display = "none";
+            chats.style.display = "none";
+            caret_down.style.display = "none";
+            sidebar.style.width = "100px";
+            sidebar.style.transition = "0.45s";
+            dots.style.margin = "auto";
+            profile.style.margin = "auto";
+            ul.style.margin = "auto";
+            ul.style.width = "24px";
+            svg[0].style.marginRight = "0px";
+            svg[1].style.marginRight = "0px";
+            svg[2].style.marginRight = "0px";
+            svg[3].style.marginRight = "0px";
+            svg[4].style.marginRight = "0px";
+            svg[5].style.marginRight = "0px";
+            svg[6].style.marginRight = "0px";
+            svg[7].style.marginRight = "0px";
+            dropdown[0].style.backgroundColor = "#00000099";
+            chat_count_small[0].style.display = "flex";
+            chat_count_small[1].style.display = "flex";
+            }
+            else
+            {
+            caret_icon.style.transform = "rotate(0deg)";
+            caret_icon.style.transition = "0.5s";
+            flag = 0;
+            p[0].style.display = "block";
+            p[1].style.display = "block";
+            p[2].style.display = "block";
+            p[3].style.display = "block";
+            p[4].style.display = "block";
+            p[5].style.display = "block";
+            p[6].style.display = "block";
+            profile_details.style.display = "block";
+            upload.style.display = "block";
+            drag.style.display = "block";
+            chat_count.style.display = "flex";
+            notifications_count.style.display = "flex";
+            caret_down.style.display = "block";
+            sidebar.style.width = "300px";
+            dots.style.marginLeft = "0px";
+            ul.style.width = "100%";
+            svg[0].style.marginRight = "16px";
+            svg[1].style.marginRight = "16px";
+            svg[2].style.marginRight = "16px";
+            svg[3].style.marginRight = "16px";
+            svg[4].style.marginRight = "16px";
+            svg[5].style.marginRight = "16px";
+            svg[6].style.marginRight = "16px";
+            svg[7].style.marginRight = "16px";
+            dropdown[0].style.backgroundColor = "#00000000";
+            chat_count_small[0].style.display = "none";
+            chat_count_small[1].style.display = "none";
+            chats.style.display = "flex";
+            }
+            
+        };
+    </script>
+    <script>
+        var dropdown = document.getElementsByClassName("dropdown");
+        var dropdown_link = document.getElementsByClassName("dropdown_link");
+        var dropdown_ul = document.getElementsByClassName("dropdown_ul");
+        var c_down = document.getElementsByClassName("c_down");
+        
+
+        dropdown_link[0].onclick = function(){
+            if(dropdown[0].style.height == "0px")
+            {
+                dropdown[0].style.height = "100%";
+                // dropdown[0].style.transition = "0.5s";
+                // dropdown_ul[0].style.paddingLeft = "32px";
+                c_down[0].style.transform = "rotate(180deg)";
+                c_down[0].style.transition = "0.5s";
+            }
+            else
+            {
+                dropdown[0].style.height = "0px";
+                // dropdown[0].style.transition = "0.5s";
+                // dropdown_ul[0].style.paddingLeft = "0px";
+                c_down[0].style.transform = "rotate(0deg)";
+                c_down[0].style.transition = "0.5s";
+            }
+        };
+    </script>
+    <script>
+        var c_down_div = document.getElementsByClassName("c_down_div");
+        var b_c_down = document.getElementsByClassName("b_c_down");
+
+        c_down_div[0].addEventListener("mouseover",function(){
+             b_c_down[0].style.display = "block";
+        });
+        c_down_div[0].addEventListener("mouseout",function(){
+             b_c_down[0].style.display = "none";
+        });
+
+        c_down_div[1].addEventListener("mouseover",function(){
+             b_c_down[1].style.display = "block";
+        });
+        c_down_div[1].addEventListener("mouseout",function(){
+             b_c_down[1].style.display = "none";
+        });
+
+        c_down_div[2].addEventListener("mouseover",function(){
+             b_c_down[2].style.display = "block";
+        });
+        c_down_div[2].addEventListener("mouseout",function(){
+             b_c_down[2].style.display = "none";
+        });
+
+        c_down_div[3].addEventListener("mouseover",function(){
+             b_c_down[3].style.display = "block";
+        });
+        c_down_div[3].addEventListener("mouseout",function(){
+             b_c_down[3].style.display = "none";
+        });
+    </script>
+</body>
+</html>
